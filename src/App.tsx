@@ -1,19 +1,16 @@
 import './App.css';
-import './styles.css'
-import {Header} from "./components";
+import './styles.css';
+import { Header, Footer, MoviesGrid } from './components';
 
 function App() {
-
   return (
-   <div className="App">
-       <div className='container'>
-
-     <Header/>
-       </div>
-     <footer className='footer'>
-       <p>Footer content</p>
-     </footer>
-   </div>
+    <div className="App">
+      <div className="container">
+        <Header />
+        <MoviesGrid />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
